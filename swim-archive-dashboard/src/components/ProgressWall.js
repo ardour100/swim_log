@@ -1,24 +1,38 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const ProgressWall = ({ sessions, setActiveSession }) => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   const year = 2026;
-  const startDate = new Date(year, 0, 1);
-  const startDayOfWeek = startDate.getDay(); // 0 (Sun) - 6 (Sat)
+
+  // Determine which sessions to display
+  const sessionsToDisplay = isMobile 
+    ? sessions.filter(s => new Date(s.date).getMonth() === new Date(Math.max(...sessions.map(s => new Date(s.date)))).getMonth())
+    : sessions;
   
-  // In JS, Sunday is 0. We want to treat Monday as the start of the week.
-  // Let's adjust so Monday is 0 and Sunday is 6.
-  const firstDayGridOffset = (startDayOfWeek === 0) ? 6 : startDayOfWeek -1;
+  const displayMonth = isMobile ? new Date(Math.max(...sessions.map(s => new Date(s.date)))).getMonth() : null;
+  const displayYear = isMobile ? new Date(Math.max(...sessions.map(s => new Date(s.date)))).getFullYear() : year;
 
+  const startDate = new Date(displayYear, isMobile ? displayMonth : 0, 1);
+  const startDayOfWeek = startDate.getDay();
+  const firstDayGridOffset = (startDayOfWeek === 0) ? 6 : startDayOfWeek - 1;
 
-  const totalGridCells = 365 + firstDayGridOffset;
+  const daysInMonth = new Date(displayYear, (displayMonth || 0) + 1, 0).getDate();
+  const totalGridCells = isMobile ? daysInMonth + firstDayGridOffset : 365 + firstDayGridOffset;
 
-  const swimsByDay = sessions.reduce((acc, session) => {
+  const swimsByDay = sessionsToDisplay.reduce((acc, session) => {
     const sessionDate = new Date(session.date);
-    if (sessionDate.getFullYear() === year) {
-      const startOfYear = new Date(year, 0, 1);
-      const dayOfYear = Math.ceil((sessionDate - startOfYear) / (1000 * 60 * 60 * 24));
-      acc[dayOfYear] = (acc[dayOfYear] || 0) + session.distance;
-    }
+    const day = isMobile ? sessionDate.getDate() : Math.ceil((sessionDate - new Date(sessionDate.getFullYear(), 0, 1)) / (1000 * 60 * 60 * 24));
+    acc[day] = (acc[day] || 0) + session.distance;
     return acc;
   }, {});
 
@@ -29,8 +43,8 @@ const ProgressWall = ({ sessions, setActiveSession }) => {
       return <div key={`empty-${i}`} className="day-circle-empty"></div>;
     }
 
-    const dayOfYear = i - firstDayGridOffset + 1;
-    const distance = swimsByDay[dayOfYear] || 0;
+    const dayIndex = i - firstDayGridOffset + 1;
+    const distance = swimsByDay[dayIndex] || 0;
     
     let opacity = 0.3; // Default for no swim
     if (distance > 0) {
@@ -46,10 +60,10 @@ const ProgressWall = ({ sessions, setActiveSession }) => {
 
     const handleClick = () => {
       if (distance > 0) {
-        const sessionDate = new Date(year, 0, dayOfYear);
+        const sessionDate = new Date(displayYear, displayMonth, dayIndex);
         const session = sessions.find(s => {
           const sDate = new Date(s.date);
-          return sDate.getFullYear() === year &&
+          return sDate.getFullYear() === displayYear &&
                  sDate.getMonth() === sessionDate.getMonth() &&
                  sDate.getDate() === sessionDate.getDate();
         });
@@ -59,32 +73,31 @@ const ProgressWall = ({ sessions, setActiveSession }) => {
       }
     };
 
-    return <div key={dayOfYear} className="day-circle" style={style} onClick={handleClick} title={`${new Date(year, 0, dayOfYear).toLocaleDateString()}: ${distance}m`}></div>;
+    return <div key={dayIndex} className="day-circle" style={style} onClick={handleClick} title={`${new Date(displayYear, displayMonth, dayIndex).toLocaleDateString()}: ${distance}m`}></div>;
   });
 
-  const monthLabels = [
-    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
-  ];
+  const monthLabels = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
   const monthLabelPositions = monthLabels.map((month, index) => {
     const firstDayOfMonth = new Date(year, index, 1);
-    const dayOfYear = Math.ceil((firstDayOfMonth - startDate) / (1000 * 60 * 60 * 24));
+    const dayOfYear = Math.ceil((firstDayOfMonth - new Date(year, 0, 1)) / (1000 * 60 * 60 * 24));
     const gridColumnStart = Math.floor((dayOfYear + firstDayGridOffset) / 7) + 1;
     return { month, gridColumnStart };
   });
 
   return (
     <div className="progress-wall">
-      <h3>Commitment Wall ({year})</h3>
-      <div className="month-labels-container">
-        {monthLabelPositions.map(({ month, gridColumnStart }) => (
-          <div key={month} className="month-label" style={{ gridColumnStart }}>
-            {month}
-          </div>
-        ))}
-      </div>
-      <div className="swim-wall">{days}</div>
+      <h3>Commitment Wall ({isMobile ? monthLabels[displayMonth] : year})</h3>
+      {!isMobile && (
+        <div className="month-labels-container">
+          {monthLabelPositions.map(({ month, gridColumnStart }) => (
+            <div key={month} className="month-label" style={{ gridColumnStart }}>
+              {month}
+            </div>
+          ))}
+        </div>
+      )}
+      <div className={`swim-wall ${isMobile ? 'mobile' : ''}`}>{days}</div>
     </div>
   );
 };

@@ -4,6 +4,7 @@ import Header from './components/Header';
 import FocusCard from './components/FocusCard';
 import ProgressWall from './components/ProgressWall';
 import SwimmingAnimation from './components/SwimmingAnimation';
+import TotalStats from './components/TotalStats';
 import mockData from './data/mockData.json';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <SwimmingAnimation />
       <div className="main-content-container">
         <FocusCard session={activeSession} />
+        <TotalStats sessions={mockData} />
       </div>
     </div>
   );
