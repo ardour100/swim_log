@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProgressWall = ({ sessions }) => {
+const ProgressWall = ({ sessions, setActiveSession }) => {
   const year = 2026;
   const startDate = new Date(year, 0, 1);
   const startDayOfWeek = startDate.getDay(); // 0 (Sun) - 6 (Sat)
@@ -41,9 +41,25 @@ const ProgressWall = ({ sessions }) => {
     const style = {
       backgroundColor: `var(--accents-data)`,
       opacity: opacity,
+      cursor: distance > 0 ? 'pointer' : 'default',
     };
 
-    return <div key={dayOfYear} className="day-circle" style={style} title={`${new Date(year, 0, dayOfYear).toLocaleDateString()}: ${distance}m`}></div>;
+    const handleClick = () => {
+      if (distance > 0) {
+        const sessionDate = new Date(year, 0, dayOfYear);
+        const session = sessions.find(s => {
+          const sDate = new Date(s.date);
+          return sDate.getFullYear() === year &&
+                 sDate.getMonth() === sessionDate.getMonth() &&
+                 sDate.getDate() === sessionDate.getDate();
+        });
+        if (session) {
+          setActiveSession(session);
+        }
+      }
+    };
+
+    return <div key={dayOfYear} className="day-circle" style={style} onClick={handleClick} title={`${new Date(year, 0, dayOfYear).toLocaleDateString()}: ${distance}m`}></div>;
   });
 
   const monthLabels = [

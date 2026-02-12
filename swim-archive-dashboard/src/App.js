@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
-import SessionSelector from './components/SessionSelector';
 import FocusCard from './components/FocusCard';
 import ProgressWall from './components/ProgressWall';
 import SwimmingAnimation from './components/SwimmingAnimation';
@@ -13,15 +12,10 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <ProgressWall sessions={mockData} />
+      <ProgressWall sessions={mockData} setActiveSession={setActiveSession} />
       <SwimmingAnimation />
       <div className="main-content-container">
         <FocusCard session={activeSession} />
-        <SessionSelector
-          sessions={mockData}
-          activeSession={activeSession}
-          setActiveSession={setActiveSession}
-        />
       </div>
     </div>
   );
