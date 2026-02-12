@@ -10,7 +10,6 @@ const ProgressWall = ({ sessions }) => {
   const firstDayGridOffset = (startDayOfWeek === 0) ? 6 : startDayOfWeek -1;
 
 
-  const daysInYear = 365;
   const totalGridCells = 365 + firstDayGridOffset;
 
   const swimsByDay = sessions.reduce((acc, session) => {
