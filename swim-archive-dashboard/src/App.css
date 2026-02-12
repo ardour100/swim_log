@@ -1,0 +1,229 @@
+:root {
+  --background: #1A3C34;
+  --primary-elements: #FDF8E1;
+  --accents-data: #C5B4E3;
+  --typography-serif: 'Lora', serif;
+  --typography-sans-serif: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--primary-elements);
+  font-family: var(--typography-sans-serif);
+}
+
+.app {
+  padding: 2rem;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header-title {
+  font-family: var(--typography-serif);
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.sync-status {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.sync-indicator {
+  width: 8px;
+  height: 8px;
+  background-color: var(--accents-data);
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(197, 180, 227, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(197, 180, 227, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(197, 180, 227, 0);
+  }
+}
+
+/* Main Content */
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.session-selector ul {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.session-selector ul::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.session-selector li {
+  flex-direction: column;
+  min-width: 120px;
+  text-align: center;
+}
+
+
+
+
+/* Session Selector */
+.session-selector {
+  background-color: var(--primary-elements);
+  color: var(--background);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.session-selector ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.session-selector li {
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.session-selector li.active {
+  border-color: var(--accents-data);
+}
+
+.session-date {
+  font-weight: 600;
+}
+
+/* Focus Card */
+.focus-card {
+  background-color: var(--primary-elements);
+  color: var(--background);
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hero-stat {
+  font-size: 5rem;
+  font-weight: 700;
+  color: var(--accents-data);
+  font-family: var(--typography-serif);
+  text-align: center;
+}
+
+.apple-watch-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.metric-label {
+  font-size: 0.9rem;
+  color: #8a8a8a;
+}
+
+.metric-value {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.pill {
+  background-color: #e0d8f0;
+  color: var(--background);
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  width: fit-content;
+}
+
+/* Progress Wall */
+.progress-wall {
+  background-color: var(--primary-elements);
+  color: var(--background);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.progress-wall h3 {
+  margin-top: 0;
+  font-family: var(--typography-serif);
+  margin-bottom: 1rem;
+}
+
+.month-labels-container {
+  display: grid;
+  grid-template-columns: repeat(53, 1fr);
+  gap: 4px;
+  padding-left: 20px; /* to align with the swim wall */
+  margin-bottom: 5px;
+}
+
+.month-label {
+  font-family: var(--typography-serif);
+  font-size: 0.8rem;
+  color: #8a8a8a;
+}
+
+.swim-wall {
+  display: grid;
+  grid-template-columns: repeat(53, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 4px;
+  grid-auto-flow: column;
+}
+
+.day-circle-empty {
+  width: 100%;
+  padding-bottom: 100%;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+
+.day-circle {
+  width: 100%;
+  padding-bottom: 100%;
+  border-radius: 50%;
+  background-color: var(--background);
+  opacity: 0.3;
+}
