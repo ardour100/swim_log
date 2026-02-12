@@ -10,7 +10,5 @@
   { "id": 9, "date": "2026-01-25", "distance": 2300, "duration": 5000 },
   { "id": 10, "date": "2026-01-22", "distance": 1400, "duration": 3400 },
   { "id": 11, "date": "2026-01-20", "distance": 1900, "duration": 4400 },
-  { "id": 12, "date": "2026-01-18", "distance": 2400, "duration": 5200 },
-  { "id": 13, "date": "2025-12-15", "distance": 3000, "duration": 6000},
-  { "id": 14, "date": "2025-11-11", "distance": 1000, "duration": 2000}
+  { "id": 12, "date": "2026-01-18", "distance": 2400, "duration": 5200 }
 ]
