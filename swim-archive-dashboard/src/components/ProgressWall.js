@@ -14,13 +14,21 @@ const ProgressWall = ({ sessions, setActiveSession }) => {
 
   const year = 2026;
 
+  // Helper to convert session date
+  const getSessionDate = (session) => {
+    if (session.date && session.date.toDate) {
+      return session.date.toDate();
+    }
+    return new Date(session.date);
+  };
+
   // Determine which sessions to display
-  const sessionsToDisplay = isMobile 
-    ? sessions.filter(s => new Date(s.date).getMonth() === new Date(Math.max(...sessions.map(s => new Date(s.date)))).getMonth())
+  const sessionsToDisplay = isMobile
+    ? sessions.filter(s => getSessionDate(s).getMonth() === new Date(Math.max(...sessions.map(s => getSessionDate(s)))).getMonth())
     : sessions;
   
-  const displayMonth = isMobile ? new Date(Math.max(...sessions.map(s => new Date(s.date)))).getMonth() : null;
-  const displayYear = isMobile ? new Date(Math.max(...sessions.map(s => new Date(s.date)))).getFullYear() : year;
+  const displayMonth = isMobile ? new Date(Math.max(...sessions.map(s => getSessionDate(s)))).getMonth() : null;
+  const displayYear = isMobile ? new Date(Math.max(...sessions.map(s => getSessionDate(s)))).getFullYear() : year;
 
   const startDate = new Date(displayYear, isMobile ? displayMonth : 0, 1);
   const startDayOfWeek = startDate.getDay();
@@ -30,7 +38,7 @@ const ProgressWall = ({ sessions, setActiveSession }) => {
   const totalGridCells = isMobile ? daysInMonth + firstDayGridOffset : 365 + firstDayGridOffset;
 
   const swimsByDay = sessionsToDisplay.reduce((acc, session) => {
-    const sessionDate = new Date(session.date);
+    const sessionDate = getSessionDate(session);
     const day = isMobile ? sessionDate.getDate() : Math.ceil((sessionDate - new Date(sessionDate.getFullYear(), 0, 1)) / (1000 * 60 * 60 * 24));
     acc[day] = (acc[day] || 0) + session.distance;
     return acc;
@@ -62,7 +70,7 @@ const ProgressWall = ({ sessions, setActiveSession }) => {
       if (distance > 0) {
         const sessionDate = new Date(displayYear, displayMonth, dayIndex);
         const session = sessions.find(s => {
-          const sDate = new Date(s.date);
+          const sDate = getSessionDate(s);
           return sDate.getFullYear() === displayYear &&
                  sDate.getMonth() === sessionDate.getMonth() &&
                  sDate.getDate() === sessionDate.getDate();
@@ -73,7 +81,7 @@ const ProgressWall = ({ sessions, setActiveSession }) => {
       }
     };
 
-    return <div key={dayIndex} className="day-circle" style={style} onClick={handleClick} title={`${new Date(displayYear, displayMonth, dayIndex).toLocaleDateString()}: ${distance}m`}></div>;
+    return <div key={dayIndex} className="day-circle" style={style} onClick={handleClick} title={`${new Date(displayYear, displayMonth, dayIndex).toLocaleDateString()}: ${Math.round(distance)}m`}></div>;
   });
 
   const monthLabels = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -98,6 +106,11 @@ const ProgressWall = ({ sessions, setActiveSession }) => {
         </div>
       )}
       <div className={`swim-wall ${isMobile ? 'mobile' : ''}`}>{days}</div>
+<br/>
+      <div className="sync-status">
+      <div className="sync-indicator"></div>
+      <span>Last synced with Apple Watch: 1 min ago</span>
+      </div>
     </div>
   );
 };
