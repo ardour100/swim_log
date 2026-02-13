@@ -12,13 +12,16 @@ const FocusCard = ({ session }) => {
 
   const formatDuration = (seconds) => {
     const minutes = Math.floor(seconds / 60);
-    const remainingSeconds = seconds % 60;
+    const remainingSeconds = Math.round(seconds % 60);
     return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
   };
 
-  const formatDate = (dateString) => {
-    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(dateString).toLocaleDateString('en-US', options);
+  const formatDate = (date) => {
+    const options = { weekday: 'short', year: 'numeric', month: 'long', day: 'numeric' };
+    if (date && date.toDate) {
+      return date.toDate().toLocaleDateString('en-US', options);
+    }
+    return new Date(date).toLocaleDateString('en-US', options);
   };
   
   const strokeColors = {
@@ -28,11 +31,13 @@ const FocusCard = ({ session }) => {
     Butterfly: '#FFAFCC'
   }
 
+  const strokeAnalysis = session.stroke_type ? { [session.stroke_type]: 1 } : {};
+
 
   return (
     <motion.div className="focus-card" layout>
       <motion.div className="hero-stat" layout>
-        {session.distance || 'N/A'}m
+        {session.distance || 'N/A'} km
       </motion.div>
       <div className="primary-metrics-grid">
         <div className="metric">
@@ -45,24 +50,24 @@ const FocusCard = ({ session }) => {
         </div>
         <div className="metric">
           <span className="metric-label">Average Pace</span>
-          <span className="metric-value">{session.pace} /100m</span>
+          <span className="metric-value">{session.pace || 'N/A'} /100m</span>
         </div>
         <div className="metric">
           <span className="metric-label">Average Heart Rate</span>
           <span className="metric-value">
             <span role="img" aria-label="heart" style={{ marginRight: '8px' }}>❤️</span>
-            {session.avgHeartRate} bpm
+            {Math.round(session.avg_hr) || 'N/A'} bpm
           </span>
         </div>
         <div className="metric">
           <span className="metric-label">Active Calories</span>
-          <span className="metric-value">{session.activeCalories} kcal</span>
+          <span className="metric-value">{Math.round(session.active_kcal) || 'N/A'} kcal</span>
         </div>
       </div>
       <div className="stroke-analysis">
         <span className="metric-label">Stroke Type Analysis</span>
         <div className="breakdown-pill">
-          {Object.entries(session.strokeAnalysis).map(([stroke, percentage]) => (
+          {Object.entries(strokeAnalysis).map(([stroke, percentage]) => (
             <div
               key={stroke}
               className="pill-segment"
@@ -75,7 +80,7 @@ const FocusCard = ({ session }) => {
           ))}
         </div>
         <div className="pill-legend">
-          {Object.entries(session.strokeAnalysis).map(([stroke, percentage]) => (
+          {Object.entries(strokeAnalysis).map(([stroke, percentage]) => (
             <div key={stroke} className="legend-item">
               <div className="legend-color" style={{ backgroundColor: strokeColors[stroke] || '#E0E0E0' }}></div>
               <span>{stroke}</span>
