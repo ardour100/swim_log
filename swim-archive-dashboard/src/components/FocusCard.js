@@ -89,8 +89,8 @@ const FocusCard = ({ session }) => {
           ))}
         </div>
       </div>
-      {session.swimDistance && session.swimDistance.length > 0 && (
-        <SplitPaceChart swimDistanceData={session.swimDistance.map(item => ({ qty: item.qty, date: item.date }))} />
+      {session.workouts && session.workouts.length > 0 && session.workouts[0].swimDistance && session.workouts[0].swimDistance.length > 0 && (
+        <SplitPaceChart swimDistanceData={session.workouts[0].swimDistance.map(item => ({ qty: item.qty, date: item.date }))} />
       )}
     </motion.div>
   );
