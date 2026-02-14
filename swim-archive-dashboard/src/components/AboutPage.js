@@ -6,7 +6,7 @@ const AboutPage = () => {
       <h2>About This Project</h2>
       <p>
         This is a simple swimming journal dashboard designed to visualize and track swimming activities.
-        It integrates data (currently mocked) to display key metrics like total distance, workout duration,
+        It integrates data to display key metrics like total distance, workout duration,
         heart rate, and calorie burn.
       </p>
       <p>

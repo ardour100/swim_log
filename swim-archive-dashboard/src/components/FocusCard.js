@@ -11,17 +11,17 @@ const FocusCard = ({ session }) => {
     );
   }
 
-  const formatDuration = (seconds) => {
-    const minutes = Math.floor(seconds / 60);
-    const remainingSeconds = Math.round(seconds % 60);
-    return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
+  const formatDuration = (minutes) => { // Now accepts minutes
+    if (typeof minutes !== 'number') return 'N/A';
+    const totalSeconds = minutes * 60;
+    const mins = Math.floor(totalSeconds / 60);
+    const remainingSeconds = Math.round(totalSeconds % 60);
+    return `${mins}:${remainingSeconds.toString().padStart(2, '0')}`;
   };
-
-
 
   const formatDate = (date) => {
     const options = { weekday: 'short', year: 'numeric', month: 'long', day: 'numeric' };
-    if (date && date.toDate) {
+    if (date && date.toDate) { // This part handles Firebase Timestamp
       return date.toDate().toLocaleDateString('en-US', options);
     }
     return new Date(date).toLocaleDateString('en-US', options);
@@ -30,7 +30,7 @@ const FocusCard = ({ session }) => {
   return (
     <motion.div className="focus-card" layout>
       <motion.div className="hero-stat" layout>
-        {session.distance ? (session.distance*1000).toFixed(0) : 'N/A'} m
+        {session.distance && session.distance.qty ? (session.distance.qty / 1000).toFixed(3) : 'N/A'} km
       </motion.div>
       <div className="primary-metrics-grid">
         <div className="metric">
@@ -39,19 +39,19 @@ const FocusCard = ({ session }) => {
         </div>
         <div className="metric">
           <span className="metric-label">Workout Duration</span>
-          <span className="metric-value">{formatDuration(session.duration)}</span>
+          <span className="metric-value">{session.workoutDuration && session.workoutDuration.qty ? formatDuration(session.workoutDuration.qty) : 'N/A'}</span>
         </div>
 
         <div className="metric">
           <span className="metric-label">Average Heart Rate</span>
           <span className="metric-value">
             <span role="img" aria-label="heart" style={{ marginRight: '8px' }}>❤️</span>
-            {Math.round(session.avg_hr) || 'N/A'} bpm
+            {session.heartRate && session.heartRate.avg && Math.round(session.heartRate.avg.qty) || 'N/A'} bpm
           </span>
         </div>
         <div className="metric">
           <span className="metric-label">Active Calories</span>
-          <span className="metric-value">{Math.round(session.active_kcal) || 'N/A'} kcal</span>
+          <span className="metric-value">{session.activeEnergyBurned && Math.round(session.activeEnergyBurned.qty) || 'N/A'} kcal</span>
         </div>
       </div>
       {session.swimDistance && session.swimDistance.length > 0 && (
