@@ -107,7 +107,7 @@ const SplitPaceChart = ({ swimDistanceData = [] }) => {
 
   return (
     <div style={{
-      backgroundColor: '#1A3C34', // Deep Ink Green background
+      backgroundColor: '#3A5C52', // Lighter Ink Green background
       padding: '20px',
       borderRadius: '8px',
       color: '#FDF8E1', // Creamy off-white for general text
@@ -121,7 +121,7 @@ const SplitPaceChart = ({ swimDistanceData = [] }) => {
       boxSizing: 'border-box'
     }}>
       <h2 style={{ fontFamily: serifFontFamily, marginBottom: '20px', fontSize: '1.8em' }}>
-        100m 分段配速
+        100m Split Pace
       </h2>
       {processedData.length > 0 ? (
         <ResponsiveContainer width="100%" height={300}>
@@ -164,7 +164,7 @@ const SplitPaceChart = ({ swimDistanceData = [] }) => {
         </ResponsiveContainer>
       ) : (
         <p style={{ fontFamily: monospaceFontFamily, color: '#FDF8E190' }}>
-          暂无足够数据生成 100m 分段配速图。
+          Not enough data to generate 100m split pace chart.
         </p>
       )}
     </div>
