@@ -49,7 +49,6 @@ const CustomTooltip = ({ active, payload, label }) => {
 const calculatePaceSplits = (swimDistanceArray) => {
   const splits = [];
   let currentCumulativeDistance = 0;
-  let lastSplitCumulativeDistance = 0;
   let lastSplitCumulativeTimeInSeconds = 0; // Cumulative time in seconds up to the *end* of the last split
 
   swimDistanceArray.forEach((entry, index) => {
@@ -85,7 +84,6 @@ const calculatePaceSplits = (swimDistanceArray) => {
         time: Math.max(0, Math.round(splitTime)) // Ensure non-negative and round to nearest second
       });
       lastSplitCumulativeTimeInSeconds = timeToReachTargetFromStart;
-      lastSplitCumulativeDistance = targetDistance;
     }
   });
 
