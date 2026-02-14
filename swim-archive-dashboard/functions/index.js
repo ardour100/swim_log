@@ -40,6 +40,17 @@ exports.syncSwimmingData = onRequest({ cors: true }, async (req, res) => {
           synced_at: admin.firestore.FieldValue.serverTimestamp()
         };
 
+        // 增加过滤逻辑：如果总距离小于200米，则认为是无效数据
+        const totalSwimDistance = swimDoc.distance;
+        if (totalSwimDistance < 200) {
+          console.log(`❌ 过滤掉一条游泳记录 (距离太短: ${totalSwimDistance} 米):`, {
+            name: swimDoc.stroke_type,
+            date: swimDoc.date.toDate().toISOString(),
+            distance: totalSwimDistance
+          });
+          return; // 跳过这条记录
+        }
+
         batch.set(ref, swimDoc);
         count++;
       }
