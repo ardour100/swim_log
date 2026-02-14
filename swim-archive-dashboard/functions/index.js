@@ -36,6 +36,7 @@ exports.syncSwimmingData = onRequest({ cors: true }, async (req, res) => {
           active_kcal: w.activeEnergyBurned?.qty || 0, 
           date: admin.firestore.Timestamp.fromDate(new Date(w.start || Date.now())),
           stroke_type: w.name || "Pool Swim",
+          swimDistance: w.swimDistance || [], // Store the full swimDistance array
           synced_at: admin.firestore.FieldValue.serverTimestamp()
         };
 
