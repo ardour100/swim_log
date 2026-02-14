@@ -15,9 +15,17 @@ function App() {
   useEffect(() => {
     const unsubscribe = onSnapshot(collection(db, "swims"), (querySnapshot) => {
       const sessionsData = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-      setSessions(sessionsData);
-      if (sessionsData.length > 0) {
-        setActiveSession(sessionsData[0]);
+      
+      // Sort sessions by date in descending order (latest first)
+      const sortedSessions = sessionsData.sort((a, b) => {
+        const dateA = a.date && a.date.seconds ? a.date.seconds : 0;
+        const dateB = b.date && b.date.seconds ? b.date.seconds : 0;
+        return dateB - dateA;
+      });
+
+      setSessions(sortedSessions);
+      if (sortedSessions.length > 0) {
+        setActiveSession(sortedSessions[0]);
       }
     });
 

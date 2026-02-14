@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import SplitPaceChart from './SplitPaceChart';
 
 const FocusCard = ({ session }) => {
   if (!session) {
@@ -24,16 +25,6 @@ const FocusCard = ({ session }) => {
     return new Date(date).toLocaleDateString('en-US', options);
   };
   
-  const strokeColors = {
-    Freestyle: '#C5B4E3',
-    Breaststroke: '#A2D2FF',
-    Backstroke: '#BDE0FE',
-    Butterfly: '#FFAFCC'
-  }
-
-  const strokeAnalysis = session.stroke_type ? { [session.stroke_type]: 1 } : {};
-
-
   return (
     <motion.div className="focus-card" layout>
       <motion.div className="hero-stat" layout>
@@ -64,30 +55,9 @@ const FocusCard = ({ session }) => {
           <span className="metric-value">{Math.round(session.active_kcal) || 'N/A'} kcal</span>
         </div>
       </div>
-      <div className="stroke-analysis">
-        <span className="metric-label">Stroke Type Analysis</span>
-        <div className="breakdown-pill">
-          {Object.entries(strokeAnalysis).map(([stroke, percentage]) => (
-            <div
-              key={stroke}
-              className="pill-segment"
-              style={{
-                width: `${percentage * 100}%`,
-                backgroundColor: strokeColors[stroke] || '#E0E0E0',
-              }}
-              title={`${stroke}: ${percentage * 100}%`}
-            ></div>
-          ))}
-        </div>
-        <div className="pill-legend">
-          {Object.entries(strokeAnalysis).map(([stroke, percentage]) => (
-            <div key={stroke} className="legend-item">
-              <div className="legend-color" style={{ backgroundColor: strokeColors[stroke] || '#E0E0E0' }}></div>
-              <span>{stroke}</span>
-            </div>
-          ))}
-        </div>
-      </div>
+      {session.swimDistance && session.swimDistance.length > 0 && (
+        <SplitPaceChart swimDistanceData={session.swimDistance.map(item => ({ qty: item.qty, date: item.date }))} />
+      )}
     </motion.div>
   );
 };
