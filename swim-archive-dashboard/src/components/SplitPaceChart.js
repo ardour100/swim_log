@@ -4,8 +4,6 @@ import {
 } from 'recharts';
 
 
-
-
 /**
  * Converts seconds into a formatted string like "1'42"".
  * @param {number} totalSeconds - The total number of seconds.
