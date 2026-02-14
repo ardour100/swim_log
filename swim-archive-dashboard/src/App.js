@@ -5,8 +5,10 @@ import FocusCard from './components/FocusCard';
 import ProgressWall from './components/ProgressWall';
 import SwimmingAnimation from './components/SwimmingAnimation';
 import TotalStats from './components/TotalStats';
-import { db } from './firebase';
-import { collection, onSnapshot } from 'firebase/firestore';
+import { db } from './firebase'; // Re-import Firebase
+import { collection, onSnapshot } from 'firebase/firestore'; // Re-import Firebase
+import AboutPage from './components/AboutPage'; // Keep AboutPage import
+import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Keep routing components
 
 function App() {
   const [sessions, setSessions] = useState([]);
@@ -29,19 +31,28 @@ function App() {
       }
     });
 
-    return () => unsubscribe();
-  }, []);
+    return () => unsubscribe(); // Correct cleanup function placement
+  }, []); // Empty dependency array means this effect runs once on mount
 
   return (
-    <div className="app">
-      <Header />
-      <ProgressWall sessions={sessions} setActiveSession={setActiveSession} />
-      <SwimmingAnimation />
-      <div className="main-content-container">
-        <FocusCard session={activeSession} />
-        <TotalStats sessions={sessions} />
+    <BrowserRouter>
+      <div className="app">
+        <Header />
+        <Routes>
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/" element={
+            <>
+              <ProgressWall sessions={sessions} setActiveSession={setActiveSession} />
+              <SwimmingAnimation />
+              <div className="main-content-container">
+                <FocusCard session={activeSession} />
+                <TotalStats sessions={sessions} />
+              </div>
+            </>
+          } />
+        </Routes>
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 

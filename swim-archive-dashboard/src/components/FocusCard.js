@@ -17,8 +17,6 @@ const FocusCard = ({ session }) => {
     return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
   };
 
-
-
   const formatDate = (date) => {
     const options = { weekday: 'short', year: 'numeric', month: 'long', day: 'numeric' };
     if (date && date.toDate) {
@@ -30,7 +28,7 @@ const FocusCard = ({ session }) => {
   return (
     <motion.div className="focus-card" layout>
       <motion.div className="hero-stat" layout>
-        {session.distance ? (session.distance*1000).toFixed(0) : 'N/A'} m
+        {(session.distance *1000).toFixed(0) || 'N/A'} m
       </motion.div>
       <div className="primary-metrics-grid">
         <div className="metric">
@@ -39,9 +37,8 @@ const FocusCard = ({ session }) => {
         </div>
         <div className="metric">
           <span className="metric-label">Workout Duration</span>
-          <span className="metric-value">{formatDuration(session.duration)}</span>
+          <span className="metric-value">{formatDuration(session.duration)} min</span>
         </div>
-
         <div className="metric">
           <span className="metric-label">Average Heart Rate</span>
           <span className="metric-value">
