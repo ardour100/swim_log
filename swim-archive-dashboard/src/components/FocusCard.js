@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import SplitPaceChart from './SplitPaceChart';
 
 const FocusCard = ({ session }) => {
   if (!session) {
@@ -88,6 +89,9 @@ const FocusCard = ({ session }) => {
           ))}
         </div>
       </div>
+      {session.swimDistance && session.swimDistance.length > 0 && (
+        <SplitPaceChart swimDistanceData={session.swimDistance.map(item => ({ qty: item.qty, date: item.date }))} />
+      )}
     </motion.div>
   );
 };
