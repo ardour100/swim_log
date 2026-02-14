@@ -1,0 +1,3060 @@
+{
+    "avgHeartRate" : {
+      "qty" : 130.22140813656694,
+      "units" : "count\/min"
+    },
+    "swimDistance" : [
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "m",
+        "qty" : 26.811772185090653,
+        "date" : "2026-02-11 17:33:36 +1100"
+      },
+      {
+        "qty" : 23.188227814909347,
+        "units" : "m",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:34:36 +1100"
+      },
+      {
+        "units" : "m",
+        "date" : "2026-02-11 17:35:36 +1100",
+        "qty" : 25,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 24.450828753378165,
+        "source" : "ting’s Apple Watch",
+        "units" : "m",
+        "date" : "2026-02-11 17:36:36 +1100"
+      },
+      {
+        "units" : "m",
+        "source" : "ting’s Apple Watch",
+        "qty" : 25.549171246621835,
+        "date" : "2026-02-11 17:37:36 +1100"
+      },
+      {
+        "qty" : 14.220414023802952,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:38:36 +1100",
+        "units" : "m"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 28.037315252973908,
+        "units" : "m",
+        "date" : "2026-02-11 17:39:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 17:40:36 +1100",
+        "qty" : 27.294297570191684,
+        "units" : "m",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "m",
+        "qty" : 13.890868422656304,
+        "date" : "2026-02-11 17:41:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 26.1334358877643,
+        "units" : "m",
+        "date" : "2026-02-11 17:42:36 +1100"
+      },
+      {
+        "qty" : 22.354994257480911,
+        "source" : "ting’s Apple Watch",
+        "units" : "m",
+        "date" : "2026-02-11 17:43:36 +1100"
+      },
+      {
+        "qty" : 27.896865860619926,
+        "date" : "2026-02-11 17:44:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "m"
+      },
+      {
+        "date" : "2026-02-11 17:45:36 +1100",
+        "units" : "m",
+        "qty" : 21.078760119325587,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "m",
+        "qty" : 23.675801940175699,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:46:36 +1100"
+      },
+      {
+        "units" : "m",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:47:36 +1100",
+        "qty" : 20.417246665008729
+      },
+      {
+        "qty" : 25,
+        "date" : "2026-02-11 17:48:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "m"
+      },
+      {
+        "date" : "2026-02-11 17:49:36 +1100",
+        "qty" : 18.957319999727751,
+        "units" : "m",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 9.0626101450794323,
+        "date" : "2026-02-11 17:50:36 +1100",
+        "units" : "m"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:51:36 +1100",
+        "units" : "m",
+        "qty" : 17.227106267341348
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 17.943610304819281,
+        "date" : "2026-02-11 17:52:36 +1100",
+        "units" : "m"
+      },
+      {
+        "qty" : 11.809353283032189,
+        "source" : "ting’s Apple Watch",
+        "units" : "m",
+        "date" : "2026-02-11 17:53:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:54:36 +1100",
+        "qty" : 18.708111661465718,
+        "units" : "m"
+      },
+      {
+        "qty" : 25.671604963576325,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:55:36 +1100",
+        "units" : "m"
+      },
+      {
+        "date" : "2026-02-11 17:56:36 +1100",
+        "qty" : 30.620283374957957,
+        "source" : "ting’s Apple Watch",
+        "units" : "m"
+      },
+      {
+        "units" : "m",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:57:36 +1100",
+        "qty" : 20.857007327237326
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:58:36 +1100",
+        "qty" : 4.1429926727626736,
+        "units" : "m"
+      },
+      {
+        "units" : "m",
+        "source" : "ting’s Apple Watch",
+        "qty" : 25,
+        "date" : "2026-02-11 18:00:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 18:08:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 17.625645159043426,
+        "units" : "m"
+      },
+      {
+        "date" : "2026-02-11 18:09:36 +1100",
+        "units" : "m",
+        "qty" : 7.374354840956574,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:10:36 +1100",
+        "units" : "m",
+        "qty" : 23.135788364752923
+      },
+      {
+        "qty" : 1.8642116352470772,
+        "units" : "m",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:11:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:12:36 +1100",
+        "qty" : 16.341624494441419,
+        "units" : "m"
+      },
+      {
+        "units" : "m",
+        "qty" : 21.805599132119028,
+        "date" : "2026-02-11 18:13:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 18:14:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 11.852776373439555,
+        "units" : "m"
+      },
+      {
+        "units" : "m",
+        "date" : "2026-02-11 18:15:36 +1100",
+        "qty" : 13.780631538087363,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 18:16:36 +1100",
+        "qty" : 11.219368461912637,
+        "source" : "ting’s Apple Watch",
+        "units" : "m"
+      },
+      {
+        "qty" : 21.441612262838909,
+        "date" : "2026-02-11 18:17:36 +1100",
+        "units" : "m",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 26.796118375127868,
+        "units" : "m",
+        "date" : "2026-02-11 18:18:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 18:19:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 26.226745965548499,
+        "units" : "m"
+      },
+      {
+        "date" : "2026-02-11 18:20:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "m",
+        "qty" : 0.53552339648472369
+      },
+      {
+        "date" : "2026-02-11 18:21:36 +1100",
+        "qty" : 22.890933080198852,
+        "units" : "m",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "m",
+        "qty" : 22.85924831082253,
+        "date" : "2026-02-11 18:22:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 18:23:36 +1100",
+        "qty" : 20.328646408788202,
+        "source" : "ting’s Apple Watch",
+        "units" : "m"
+      },
+      {
+        "qty" : 23.757446207530535,
+        "units" : "m",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:24:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 18:25:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "m",
+        "qty" : 22.163088358058779
+      },
+      {
+        "units" : "m",
+        "date" : "2026-02-11 18:26:36 +1100",
+        "qty" : 21.971972384906124,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 18:27:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "m",
+        "qty" : 28.540386909734448
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:28:36 +1100",
+        "units" : "m",
+        "qty" : 24.330232484145718
+      },
+      {
+        "qty" : 26.497140591830465,
+        "source" : "ting’s Apple Watch",
+        "units" : "m",
+        "date" : "2026-02-11 18:29:36 +1100"
+      },
+      {
+        "units" : "m",
+        "qty" : 11.660905263984352,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:30:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:32:36 +1100",
+        "units" : "m",
+        "qty" : 6.2307704257765035
+      },
+      {
+        "qty" : 18.769229574223495,
+        "units" : "m",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:33:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:34:36 +1100",
+        "qty" : 14.913985342116733,
+        "units" : "m"
+      },
+      {
+        "qty" : 10.086014657883267,
+        "units" : "m",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:35:36 +1100"
+      },
+      {
+        "units" : "m",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:37:36 +1100",
+        "qty" : 25
+      },
+      {
+        "units" : "m",
+        "qty" : 8.3394944171528333,
+        "date" : "2026-02-11 18:38:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:39:36 +1100",
+        "qty" : 16.660505582847165,
+        "units" : "m"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:40:36 +1100",
+        "units" : "m",
+        "qty" : 14.156638902371267
+      },
+      {
+        "units" : "m",
+        "date" : "2026-02-11 18:41:36 +1100",
+        "qty" : 25.358324823861636,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 22.448400567833332,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:42:36 +1100",
+        "units" : "m"
+      },
+      {
+        "units" : "m",
+        "date" : "2026-02-11 18:43:36 +1100",
+        "qty" : 26.61571991851995,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 18:44:36 +1100",
+        "units" : "m",
+        "qty" : 22.573403680201103,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "m",
+        "date" : "2026-02-11 18:45:36 +1100",
+        "qty" : 25.621001291346683
+      },
+      {
+        "qty" : 18.703725353083829,
+        "units" : "m",
+        "date" : "2026-02-11 18:46:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 18:47:36 +1100",
+        "qty" : 26.998572358396274,
+        "units" : "m",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 17.524213104385929,
+        "date" : "2026-02-11 18:48:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "m"
+      },
+      {
+        "qty" : 25,
+        "units" : "m",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:49:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 24.52024270261516,
+        "date" : "2026-02-11 18:50:36 +1100",
+        "units" : "m"
+      },
+      {
+        "qty" : 25.47975729738484,
+        "date" : "2026-02-11 18:51:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "m"
+      },
+      {
+        "units" : "m",
+        "qty" : 8.6068163752847973,
+        "date" : "2026-02-11 18:52:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 18:53:36 +1100",
+        "qty" : 23.469660751135827,
+        "units" : "m",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "m",
+        "qty" : 17.923522873579376,
+        "date" : "2026-02-11 18:54:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "m",
+        "date" : "2026-02-11 18:55:36 +1100",
+        "qty" : 25
+      },
+      {
+        "units" : "m",
+        "date" : "2026-02-11 18:56:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 25
+      },
+      {
+        "qty" : 13.834873864388689,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:57:36 +1100",
+        "units" : "m"
+      },
+      {
+        "qty" : 11.165126135611311,
+        "date" : "2026-02-11 18:58:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "m"
+      },
+      {
+        "units" : "m",
+        "date" : "2026-02-11 18:59:36 +1100",
+        "qty" : 6.4643734008456466,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 27.135417769333678,
+        "units" : "m",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:00:36 +1100"
+      },
+      {
+        "qty" : 21.54793697900347,
+        "units" : "m",
+        "date" : "2026-02-11 19:01:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "m",
+        "qty" : 19.852271850817207,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:02:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:03:36 +1100",
+        "qty" : 19.551504850792949,
+        "units" : "m"
+      },
+      {
+        "units" : "m",
+        "qty" : 17.877189626513761,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:04:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 19:05:36 +1100",
+        "qty" : 27.544817847496599,
+        "source" : "ting’s Apple Watch",
+        "units" : "m"
+      },
+      {
+        "qty" : 21.450129746677341,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:06:36 +1100",
+        "units" : "m"
+      },
+      {
+        "date" : "2026-02-11 19:07:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "m",
+        "qty" : 19.680309383658766
+      },
+      {
+        "date" : "2026-02-11 19:08:36 +1100",
+        "qty" : 21.791110348117272,
+        "units" : "m",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:09:36 +1100",
+        "qty" : 23.360233313740082,
+        "units" : "m"
+      },
+      {
+        "qty" : 25.184406312920231,
+        "source" : "ting’s Apple Watch",
+        "units" : "m",
+        "date" : "2026-02-11 19:10:36 +1100"
+      },
+      {
+        "qty" : 23.560298570082999,
+        "date" : "2026-02-11 19:11:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "m"
+      },
+      {
+        "date" : "2026-02-11 19:12:36 +1100",
+        "units" : "m",
+        "source" : "ting’s Apple Watch",
+        "qty" : 25
+      },
+      {
+        "date" : "2026-02-11 19:13:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "m",
+        "qty" : 25
+      },
+      {
+        "date" : "2026-02-11 19:14:36 +1100",
+        "qty" : 25,
+        "units" : "m",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 15.159551179316521,
+        "units" : "m",
+        "date" : "2026-02-11 19:15:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 19:16:36 +1100",
+        "qty" : 10.484573010196433,
+        "source" : "ting’s Apple Watch",
+        "units" : "m"
+      },
+      {
+        "date" : "2026-02-11 19:17:36 +1100",
+        "qty" : 21.943556693219705,
+        "source" : "ting’s Apple Watch",
+        "units" : "m"
+      },
+      {
+        "date" : "2026-02-11 19:18:36 +1100",
+        "qty" : 2.4123191172673408,
+        "source" : "ting’s Apple Watch",
+        "units" : "m"
+      },
+      {
+        "units" : "m",
+        "qty" : 12.900571336419739,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:19:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:20:36 +1100",
+        "units" : "m",
+        "qty" : 12.099428663580261
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 21.505957835686921,
+        "units" : "m",
+        "date" : "2026-02-11 19:21:36 +1100"
+      },
+      {
+        "qty" : 28.494042164313079,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:22:36 +1100",
+        "units" : "m"
+      },
+      {
+        "date" : "2026-02-11 19:23:36 +1100",
+        "qty" : 18.006453769854293,
+        "units" : "m",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 19:24:36 +1100",
+        "qty" : 20.302781229506273,
+        "units" : "m",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 19:25:36 +1100",
+        "units" : "m",
+        "source" : "ting’s Apple Watch",
+        "qty" : 11.690765000639436
+      }
+    ],
+    "location" : "Pool",
+    "totalSwimmingStrokeCount" : {
+      "qty" : 1013.0000000000001,
+      "units" : "count"
+    },
+    "end" : "2026-02-11 19:26:49 +1100",
+    "isIndoor" : true,
+    "id" : "3ED3454F-72E0-4A86-9AB7-1A068B72D381",
+    "heartRateRecovery" : [
+      {
+        "date" : "2026-02-11 19:26:52 +1100",
+        "units" : "count\/min",
+        "Max" : 124.00000000000001,
+        "Avg" : 124.00000000000001,
+        "source" : "ting’s Apple Watch",
+        "Min" : 124.00000000000001
+      },
+      {
+        "date" : "2026-02-11 19:26:57 +1100",
+        "Min" : 120,
+        "Avg" : 120,
+        "units" : "count\/min",
+        "Max" : 120,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "count\/min",
+        "Avg" : 119,
+        "source" : "ting’s Apple Watch",
+        "Min" : 119,
+        "date" : "2026-02-11 19:27:01 +1100",
+        "Max" : 119
+      },
+      {
+        "Avg" : 118,
+        "units" : "count\/min",
+        "Min" : 118,
+        "date" : "2026-02-11 19:27:06 +1100",
+        "Max" : 118,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "Avg" : 119,
+        "Max" : 119,
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:27:09 +1100",
+        "Min" : 119
+      },
+      {
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "Min" : 118,
+        "Max" : 118,
+        "Avg" : 118,
+        "date" : "2026-02-11 19:27:14 +1100"
+      },
+      {
+        "Max" : 120,
+        "units" : "count\/min",
+        "Avg" : 120,
+        "Min" : 120,
+        "date" : "2026-02-11 19:27:20 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 19:27:26 +1100",
+        "Max" : 118,
+        "Avg" : 118,
+        "source" : "ting’s Apple Watch",
+        "Min" : 118,
+        "units" : "count\/min"
+      },
+      {
+        "date" : "2026-02-11 19:27:29 +1100",
+        "Avg" : 117,
+        "Max" : 117,
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "Min" : 117
+      },
+      {
+        "date" : "2026-02-11 19:27:38 +1100",
+        "source" : "ting’s Apple Watch",
+        "Avg" : 117,
+        "Max" : 117,
+        "units" : "count\/min",
+        "Min" : 117
+      },
+      {
+        "Avg" : 117,
+        "source" : "ting’s Apple Watch",
+        "units" : "count\/min",
+        "Max" : 117,
+        "date" : "2026-02-11 19:27:41 +1100",
+        "Min" : 117
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "count\/min",
+        "Avg" : 116,
+        "Min" : 116,
+        "date" : "2026-02-11 19:27:46 +1100",
+        "Max" : 116
+      },
+      {
+        "Max" : 115,
+        "Min" : 115,
+        "units" : "count\/min",
+        "date" : "2026-02-11 19:27:50 +1100",
+        "source" : "ting’s Apple Watch",
+        "Avg" : 115
+      },
+      {
+        "Avg" : 115,
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "Max" : 115,
+        "date" : "2026-02-11 19:27:54 +1100",
+        "Min" : 115
+      },
+      {
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:28:03 +1100",
+        "Avg" : 115,
+        "Min" : 115,
+        "Max" : 115
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "Max" : 115,
+        "Avg" : 115,
+        "Min" : 115,
+        "units" : "count\/min",
+        "date" : "2026-02-11 19:28:04 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "Max" : 116,
+        "Min" : 116,
+        "Avg" : 116,
+        "date" : "2026-02-11 19:28:09 +1100",
+        "units" : "count\/min"
+      },
+      {
+        "units" : "count\/min",
+        "date" : "2026-02-11 19:28:18 +1100",
+        "Avg" : 117,
+        "source" : "ting’s Apple Watch",
+        "Max" : 117,
+        "Min" : 117
+      },
+      {
+        "units" : "count\/min",
+        "Min" : 114,
+        "Max" : 114,
+        "date" : "2026-02-11 19:28:22 +1100",
+        "source" : "ting’s Apple Watch",
+        "Avg" : 114
+      },
+      {
+        "date" : "2026-02-11 19:28:28 +1100",
+        "Min" : 116,
+        "Avg" : 116,
+        "source" : "ting’s Apple Watch",
+        "Max" : 116,
+        "units" : "count\/min"
+      },
+      {
+        "Max" : 113,
+        "date" : "2026-02-11 19:28:33 +1100",
+        "Avg" : 113,
+        "Min" : 113,
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "Max" : 113,
+        "date" : "2026-02-11 19:28:34 +1100",
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "Avg" : 113,
+        "Min" : 113
+      },
+      {
+        "date" : "2026-02-11 19:28:39 +1100",
+        "Max" : 116,
+        "source" : "ting’s Apple Watch",
+        "Min" : 116,
+        "Avg" : 116,
+        "units" : "count\/min"
+      },
+      {
+        "Avg" : 120,
+        "Min" : 120,
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "Max" : 120,
+        "date" : "2026-02-11 19:28:44 +1100"
+      }
+    ],
+    "heartRate" : {
+      "avg" : {
+        "units" : "count\/min",
+        "qty" : 130.22140813656694
+      },
+      "max" : {
+        "qty" : 164,
+        "units" : "count\/min"
+      },
+      "min" : {
+        "units" : "count\/min",
+        "qty" : 91
+      }
+    },
+    "distance" : {
+      "qty" : 2.0249999999999999,
+      "units" : "km"
+    },
+    "lapLength" : {
+      "qty" : 0.025000000000000001,
+      "units" : "m"
+    },
+    "metadata" : {
+
+    },
+    "heartRateData" : [
+      {
+        "Max" : 152,
+        "Avg" : 136.5858585858586,
+        "units" : "count\/min",
+        "date" : "2026-02-11 17:33:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Min" : 124.00000000000001
+      },
+      {
+        "date" : "2026-02-11 17:34:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Min" : 145,
+        "Avg" : 151.55882352941177,
+        "units" : "count\/min",
+        "Max" : 158
+      },
+      {
+        "units" : "count\/min",
+        "Max" : 144,
+        "date" : "2026-02-11 17:35:36 +1100",
+        "Avg" : 140.76470588235298,
+        "Min" : 136,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "Avg" : 136.80927835051548,
+        "date" : "2026-02-11 17:36:36 +1100",
+        "Min" : 131,
+        "units" : "count\/min",
+        "Max" : 142,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "count\/min",
+        "Min" : 140,
+        "date" : "2026-02-11 17:37:36 +1100",
+        "Max" : 152,
+        "source" : "ting’s Apple Watch",
+        "Avg" : 146.64432989690724
+      },
+      {
+        "units" : "count\/min",
+        "date" : "2026-02-11 17:38:36 +1100",
+        "Max" : 150,
+        "Min" : 118,
+        "source" : "ting’s Apple Watch",
+        "Avg" : 134.84736842105264
+      },
+      {
+        "units" : "count\/min",
+        "date" : "2026-02-11 17:39:36 +1100",
+        "Min" : 141,
+        "source" : "ting’s Apple Watch",
+        "Max" : 148,
+        "Avg" : 144.63636363636365
+      },
+      {
+        "Max" : 151,
+        "source" : "ting’s Apple Watch",
+        "Avg" : 147.51562499999997,
+        "units" : "count\/min",
+        "Min" : 141,
+        "date" : "2026-02-11 17:40:36 +1100"
+      },
+      {
+        "Max" : 146,
+        "Min" : 125.00000000000001,
+        "source" : "ting’s Apple Watch",
+        "Avg" : 135.69117647058823,
+        "units" : "count\/min",
+        "date" : "2026-02-11 17:41:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 17:42:36 +1100",
+        "units" : "count\/min",
+        "Max" : 137,
+        "Min" : 128,
+        "Avg" : 133.180412371134,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 17:43:36 +1100",
+        "Min" : 127,
+        "Avg" : 135.35784313725489,
+        "Max" : 140,
+        "source" : "ting’s Apple Watch",
+        "units" : "count\/min"
+      },
+      {
+        "Avg" : 135.98514851485149,
+        "units" : "count\/min",
+        "Max" : 142,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:44:36 +1100",
+        "Min" : 132
+      },
+      {
+        "Max" : 140,
+        "Min" : 127,
+        "date" : "2026-02-11 17:45:36 +1100",
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "Avg" : 133.82653061224491
+      },
+      {
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "Avg" : 131.78645833333334,
+        "Min" : 127,
+        "date" : "2026-02-11 17:46:36 +1100",
+        "Max" : 138
+      },
+      {
+        "units" : "count\/min",
+        "Avg" : 131.58000000000001,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:47:36 +1100",
+        "Min" : 126,
+        "Max" : 139.00000000000003
+      },
+      {
+        "Max" : 132,
+        "Avg" : 129.34951456310679,
+        "units" : "count\/min",
+        "date" : "2026-02-11 17:48:36 +1100",
+        "Min" : 125.00000000000001,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "count\/min",
+        "date" : "2026-02-11 17:49:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Avg" : 125.65151515151517,
+        "Max" : 129,
+        "Min" : 120
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "Max" : 130,
+        "Avg" : 120.58854166666669,
+        "units" : "count\/min",
+        "date" : "2026-02-11 17:50:36 +1100",
+        "Min" : 109
+      },
+      {
+        "Min" : 104,
+        "units" : "count\/min",
+        "Avg" : 114.71078431372548,
+        "source" : "ting’s Apple Watch",
+        "Max" : 126,
+        "date" : "2026-02-11 17:51:36 +1100"
+      },
+      {
+        "Avg" : 131.85567010309276,
+        "source" : "ting’s Apple Watch",
+        "Min" : 128,
+        "units" : "count\/min",
+        "date" : "2026-02-11 17:52:36 +1100",
+        "Max" : 135
+      },
+      {
+        "Min" : 128,
+        "units" : "count\/min",
+        "Avg" : 133.85937500000003,
+        "date" : "2026-02-11 17:53:36 +1100",
+        "Max" : 141,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "count\/min",
+        "Min" : 110,
+        "date" : "2026-02-11 17:54:36 +1100",
+        "Max" : 129,
+        "Avg" : 120.69499999999999,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "Avg" : 130.01086956521738,
+        "units" : "count\/min",
+        "Min" : 120,
+        "date" : "2026-02-11 17:55:36 +1100",
+        "Max" : 139.00000000000003,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "Avg" : 132.66176470588235,
+        "Min" : 127,
+        "units" : "count\/min",
+        "Max" : 142,
+        "date" : "2026-02-11 17:56:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 17:57:36 +1100",
+        "Avg" : 132.57065217391303,
+        "Max" : 138,
+        "source" : "ting’s Apple Watch",
+        "Min" : 125.00000000000001,
+        "units" : "count\/min"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "Avg" : 124.47916666666666,
+        "units" : "count\/min",
+        "date" : "2026-02-11 17:58:36 +1100",
+        "Max" : 141,
+        "Min" : 110
+      },
+      {
+        "Avg" : 105.59405940594061,
+        "date" : "2026-02-11 17:59:36 +1100",
+        "Max" : 111,
+        "source" : "ting’s Apple Watch",
+        "Min" : 98,
+        "units" : "count\/min"
+      },
+      {
+        "Avg" : 122.75510204081631,
+        "date" : "2026-02-11 18:00:36 +1100",
+        "Max" : 143,
+        "source" : "ting’s Apple Watch",
+        "Min" : 110,
+        "units" : "count\/min"
+      },
+      {
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:01:36 +1100",
+        "Min" : 102,
+        "Max" : 148,
+        "Avg" : 124.22549019607841
+      },
+      {
+        "Max" : 135,
+        "units" : "count\/min",
+        "date" : "2026-02-11 18:02:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Min" : 110,
+        "Avg" : 123.96354166666667
+      },
+      {
+        "Avg" : 119.26020408163268,
+        "Max" : 130,
+        "date" : "2026-02-11 18:03:36 +1100",
+        "Min" : 105,
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 18:04:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Max" : 105,
+        "Min" : 98,
+        "Avg" : 102.63500000000001,
+        "units" : "count\/min"
+      },
+      {
+        "Avg" : 103.395,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:05:36 +1100",
+        "Min" : 94,
+        "units" : "count\/min",
+        "Max" : 115
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:06:36 +1100",
+        "Min" : 96,
+        "units" : "count\/min",
+        "Max" : 109,
+        "Avg" : 102.43203883495146
+      },
+      {
+        "Min" : 91,
+        "Avg" : 95.625,
+        "units" : "count\/min",
+        "date" : "2026-02-11 18:07:36 +1100",
+        "Max" : 102,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "Max" : 152,
+        "Avg" : 126.28723404255319,
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "Min" : 99,
+        "date" : "2026-02-11 18:08:36 +1100"
+      },
+      {
+        "Max" : 157,
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "Min" : 122,
+        "Avg" : 141.5588235294118,
+        "date" : "2026-02-11 18:09:36 +1100"
+      },
+      {
+        "Min" : 115,
+        "units" : "count\/min",
+        "date" : "2026-02-11 18:10:36 +1100",
+        "Avg" : 126.02150537634409,
+        "source" : "ting’s Apple Watch",
+        "Max" : 133
+      },
+      {
+        "units" : "count\/min",
+        "Min" : 122,
+        "Max" : 155,
+        "date" : "2026-02-11 18:11:36 +1100",
+        "Avg" : 139.02409638554218,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "Max" : 137,
+        "Avg" : 124.93500000000002,
+        "Min" : 114,
+        "date" : "2026-02-11 18:12:36 +1100",
+        "units" : "count\/min"
+      },
+      {
+        "units" : "count\/min",
+        "Avg" : 137.54455445544551,
+        "date" : "2026-02-11 18:13:36 +1100",
+        "Max" : 148,
+        "Min" : 130,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 18:14:36 +1100",
+        "Min" : 127,
+        "Avg" : 138.86813186813185,
+        "units" : "count\/min",
+        "Max" : 153,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "count\/min",
+        "Max" : 125.00000000000001,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:15:36 +1100",
+        "Min" : 103,
+        "Avg" : 115.80097087378643
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "Max" : 148,
+        "units" : "count\/min",
+        "date" : "2026-02-11 18:16:36 +1100",
+        "Min" : 119,
+        "Avg" : 130.46739130434781
+      },
+      {
+        "Max" : 139.00000000000003,
+        "date" : "2026-02-11 18:17:36 +1100",
+        "Min" : 107.00000000000001,
+        "source" : "ting’s Apple Watch",
+        "Avg" : 121.63020833333333,
+        "units" : "count\/min"
+      },
+      {
+        "date" : "2026-02-11 18:18:36 +1100",
+        "Max" : 154.00000000000003,
+        "source" : "ting’s Apple Watch",
+        "Min" : 144,
+        "Avg" : 146.99009900990097,
+        "units" : "count\/min"
+      },
+      {
+        "units" : "count\/min",
+        "Min" : 137,
+        "date" : "2026-02-11 18:19:36 +1100",
+        "Max" : 149,
+        "Avg" : 144.87755102040816,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "Min" : 107.00000000000001,
+        "date" : "2026-02-11 18:20:36 +1100",
+        "Max" : 148,
+        "Avg" : 127.68627450980392,
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "Min" : 103,
+        "units" : "count\/min",
+        "Max" : 132,
+        "date" : "2026-02-11 18:21:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Avg" : 118.08174032802448
+      },
+      {
+        "date" : "2026-02-11 18:22:36 +1100",
+        "Max" : 134,
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "Min" : 128,
+        "Avg" : 130.98039215686273
+      },
+      {
+        "units" : "count\/min",
+        "Max" : 135,
+        "source" : "ting’s Apple Watch",
+        "Min" : 120,
+        "Avg" : 129.05050505050505,
+        "date" : "2026-02-11 18:23:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 18:24:36 +1100",
+        "Max" : 140,
+        "source" : "ting’s Apple Watch",
+        "Avg" : 131.61274509803923,
+        "units" : "count\/min",
+        "Min" : 127
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:25:36 +1100",
+        "units" : "count\/min",
+        "Avg" : 127.19680851063832,
+        "Max" : 135,
+        "Min" : 122.99999999999999
+      },
+      {
+        "Avg" : 128.62886597938143,
+        "Max" : 136,
+        "units" : "count\/min",
+        "Min" : 122.99999999999999,
+        "date" : "2026-02-11 18:26:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 18:27:36 +1100",
+        "Avg" : 134.05729166666666,
+        "Min" : 128,
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "Max" : 143
+      },
+      {
+        "Max" : 146,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:28:36 +1100",
+        "Min" : 134,
+        "Avg" : 139.89500000000001,
+        "units" : "count\/min"
+      },
+      {
+        "Min" : 133,
+        "date" : "2026-02-11 18:29:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "count\/min",
+        "Max" : 143,
+        "Avg" : 137.62871287128709
+      },
+      {
+        "Avg" : 131.83333333333334,
+        "Min" : 119,
+        "date" : "2026-02-11 18:30:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Max" : 142,
+        "units" : "count\/min"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:31:36 +1100",
+        "Min" : 99,
+        "Max" : 112,
+        "Avg" : 106.52083333333333,
+        "units" : "count\/min"
+      },
+      {
+        "Min" : 100,
+        "Max" : 108,
+        "date" : "2026-02-11 18:32:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Avg" : 102.32673267326733,
+        "units" : "count\/min"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "Min" : 110,
+        "Avg" : 126.17021276595747,
+        "units" : "count\/min",
+        "date" : "2026-02-11 18:33:36 +1100",
+        "Max" : 143
+      },
+      {
+        "units" : "count\/min",
+        "Max" : 139.00000000000003,
+        "date" : "2026-02-11 18:34:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Min" : 115,
+        "Avg" : 129.51485148514851
+      },
+      {
+        "date" : "2026-02-11 18:35:36 +1100",
+        "Max" : 143,
+        "Avg" : 129.35416666666666,
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "Min" : 114
+      },
+      {
+        "date" : "2026-02-11 18:36:36 +1100",
+        "Avg" : 108.28155339805824,
+        "units" : "count\/min",
+        "Min" : 99,
+        "Max" : 115,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "Max" : 157,
+        "date" : "2026-02-11 18:37:36 +1100",
+        "Min" : 119,
+        "Avg" : 132.63265306122452,
+        "units" : "count\/min"
+      },
+      {
+        "Max" : 125.00000000000001,
+        "source" : "ting’s Apple Watch",
+        "Min" : 101,
+        "date" : "2026-02-11 18:38:36 +1100",
+        "Avg" : 115.63541666666666,
+        "units" : "count\/min"
+      },
+      {
+        "Max" : 164,
+        "Avg" : 140.78999999999999,
+        "units" : "count\/min",
+        "date" : "2026-02-11 18:39:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Min" : 127
+      },
+      {
+        "Max" : 128,
+        "Min" : 111,
+        "Avg" : 122.96315789473685,
+        "units" : "count\/min",
+        "date" : "2026-02-11 18:40:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "Min" : 130,
+        "date" : "2026-02-11 18:41:36 +1100",
+        "Avg" : 134.4108910891089,
+        "units" : "count\/min",
+        "Max" : 141
+      },
+      {
+        "Max" : 142,
+        "Min" : 132,
+        "units" : "count\/min",
+        "Avg" : 136.04368932038835,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:42:36 +1100"
+      },
+      {
+        "Min" : 134,
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "Avg" : 138.97916666666666,
+        "Max" : 146,
+        "date" : "2026-02-11 18:43:36 +1100"
+      },
+      {
+        "Max" : 142,
+        "date" : "2026-02-11 18:44:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "count\/min",
+        "Min" : 132,
+        "Avg" : 136.50000000000003
+      },
+      {
+        "units" : "count\/min",
+        "Avg" : 136.90625,
+        "Max" : 142,
+        "date" : "2026-02-11 18:45:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Min" : 135
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "Max" : 137,
+        "date" : "2026-02-11 18:46:36 +1100",
+        "Min" : 122.99999999999999,
+        "Avg" : 131.86082474226802,
+        "units" : "count\/min"
+      },
+      {
+        "Max" : 141,
+        "Min" : 124.00000000000001,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:47:36 +1100",
+        "Avg" : 134.27227722772281,
+        "units" : "count\/min"
+      },
+      {
+        "units" : "count\/min",
+        "date" : "2026-02-11 18:48:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Min" : 131,
+        "Max" : 146,
+        "Avg" : 139.28350515463913
+      },
+      {
+        "units" : "count\/min",
+        "Min" : 124.00000000000001,
+        "Max" : 144,
+        "source" : "ting’s Apple Watch",
+        "Avg" : 135.51470588235296,
+        "date" : "2026-02-11 18:49:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 18:50:36 +1100",
+        "Min" : 133,
+        "Avg" : 139.97252747252747,
+        "source" : "ting’s Apple Watch",
+        "units" : "count\/min",
+        "Max" : 144
+      },
+      {
+        "units" : "count\/min",
+        "Min" : 136,
+        "Max" : 156,
+        "source" : "ting’s Apple Watch",
+        "Avg" : 147.72500000000002,
+        "date" : "2026-02-11 18:51:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "Min" : 124.00000000000001,
+        "Max" : 154.00000000000003,
+        "units" : "count\/min",
+        "Avg" : 137.22395833333334,
+        "date" : "2026-02-11 18:52:36 +1100"
+      },
+      {
+        "Avg" : 135.65979381443299,
+        "units" : "count\/min",
+        "Max" : 144,
+        "date" : "2026-02-11 18:53:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Min" : 131
+      },
+      {
+        "units" : "count\/min",
+        "Min" : 128,
+        "Avg" : 136.64705882352942,
+        "date" : "2026-02-11 18:54:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Max" : 145
+      },
+      {
+        "Avg" : 129.65533980582526,
+        "units" : "count\/min",
+        "Min" : 122,
+        "source" : "ting’s Apple Watch",
+        "Max" : 136,
+        "date" : "2026-02-11 18:55:36 +1100"
+      },
+      {
+        "Min" : 124.00000000000001,
+        "source" : "ting’s Apple Watch",
+        "Max" : 150,
+        "Avg" : 136.81818181818181,
+        "units" : "count\/min",
+        "date" : "2026-02-11 18:56:36 +1100"
+      },
+      {
+        "Min" : 119,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:57:36 +1100",
+        "Avg" : 138.00520833333334,
+        "Max" : 153,
+        "units" : "count\/min"
+      },
+      {
+        "Min" : 108,
+        "units" : "count\/min",
+        "date" : "2026-02-11 18:58:36 +1100",
+        "Avg" : 131.21428571428572,
+        "source" : "ting’s Apple Watch",
+        "Max" : 154.00000000000003
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "Avg" : 125.61386138613864,
+        "date" : "2026-02-11 18:59:36 +1100",
+        "units" : "count\/min",
+        "Min" : 108,
+        "Max" : 144
+      },
+      {
+        "date" : "2026-02-11 19:00:36 +1100",
+        "Min" : 121,
+        "Max" : 141,
+        "Avg" : 132.7772277227723,
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:01:36 +1100",
+        "Max" : 146,
+        "Min" : 131,
+        "Avg" : 139.45000000000002
+      },
+      {
+        "Min" : 134,
+        "source" : "ting’s Apple Watch",
+        "units" : "count\/min",
+        "date" : "2026-02-11 19:02:36 +1100",
+        "Max" : 148,
+        "Avg" : 138.32499999999999
+      },
+      {
+        "Avg" : 125.31720430107526,
+        "Min" : 115,
+        "source" : "ting’s Apple Watch",
+        "units" : "count\/min",
+        "date" : "2026-02-11 19:03:36 +1100",
+        "Max" : 132
+      },
+      {
+        "date" : "2026-02-11 19:04:36 +1100",
+        "Avg" : 130.42574257425741,
+        "units" : "count\/min",
+        "Max" : 136,
+        "Min" : 125.00000000000001,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "count\/min",
+        "Min" : 132,
+        "Avg" : 137.72772277227725,
+        "date" : "2026-02-11 19:05:36 +1100",
+        "Max" : 143
+      },
+      {
+        "Max" : 150,
+        "date" : "2026-02-11 19:06:36 +1100",
+        "Min" : 132,
+        "units" : "count\/min",
+        "Avg" : 140.32258064516131,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 19:07:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Min" : 125.00000000000001,
+        "Max" : 144,
+        "Avg" : 135.06770833333334,
+        "units" : "count\/min"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "count\/min",
+        "Max" : 140,
+        "Min" : 128,
+        "date" : "2026-02-11 19:08:36 +1100",
+        "Avg" : 132.33838383838383
+      },
+      {
+        "Avg" : 136.80198019801975,
+        "units" : "count\/min",
+        "Max" : 146,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:09:36 +1100",
+        "Min" : 128
+      },
+      {
+        "date" : "2026-02-11 19:10:36 +1100",
+        "Avg" : 138.46969696969697,
+        "units" : "count\/min",
+        "Max" : 143,
+        "source" : "ting’s Apple Watch",
+        "Min" : 136
+      },
+      {
+        "Avg" : 135.85784313725489,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:11:36 +1100",
+        "units" : "count\/min",
+        "Max" : 140,
+        "Min" : 132
+      },
+      {
+        "units" : "count\/min",
+        "Avg" : 133.98500000000004,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:12:36 +1100",
+        "Max" : 137,
+        "Min" : 130
+      },
+      {
+        "units" : "count\/min",
+        "Max" : 139.00000000000003,
+        "Min" : 128,
+        "date" : "2026-02-11 19:13:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Avg" : 134.54591836734696
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "Max" : 147,
+        "Min" : 134,
+        "date" : "2026-02-11 19:14:36 +1100",
+        "Avg" : 139.91499999999999,
+        "units" : "count\/min"
+      },
+      {
+        "units" : "count\/min",
+        "date" : "2026-02-11 19:15:36 +1100",
+        "Max" : 140,
+        "Min" : 122.99999999999999,
+        "source" : "ting’s Apple Watch",
+        "Avg" : 132.84466019417479
+      },
+      {
+        "date" : "2026-02-11 19:16:36 +1100",
+        "Min" : 113,
+        "Avg" : 128.94897959183675,
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "Max" : 142
+      },
+      {
+        "Max" : 134,
+        "source" : "ting’s Apple Watch",
+        "Min" : 113,
+        "Avg" : 123.68811881188118,
+        "units" : "count\/min",
+        "date" : "2026-02-11 19:17:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 19:18:36 +1100",
+        "Min" : 118,
+        "Avg" : 128.51530612244898,
+        "Max" : 135,
+        "source" : "ting’s Apple Watch",
+        "units" : "count\/min"
+      },
+      {
+        "Avg" : 112.02450980392156,
+        "units" : "count\/min",
+        "date" : "2026-02-11 19:19:36 +1100",
+        "Max" : 115,
+        "source" : "ting’s Apple Watch",
+        "Min" : 107.00000000000001
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "Avg" : 125.29591836734694,
+        "units" : "count\/min",
+        "date" : "2026-02-11 19:20:36 +1100",
+        "Max" : 133,
+        "Min" : 115
+      },
+      {
+        "date" : "2026-02-11 19:21:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Max" : 133,
+        "Min" : 119,
+        "Avg" : 128.75509226285754,
+        "units" : "count\/min"
+      },
+      {
+        "Avg" : 130.59999999999999,
+        "Max" : 148,
+        "Min" : 117,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:22:36 +1100",
+        "units" : "count\/min"
+      },
+      {
+        "units" : "count\/min",
+        "source" : "ting’s Apple Watch",
+        "Max" : 121,
+        "Avg" : 116.47938144329898,
+        "date" : "2026-02-11 19:23:36 +1100",
+        "Min" : 109
+      },
+      {
+        "Max" : 135,
+        "source" : "ting’s Apple Watch",
+        "Min" : 117,
+        "Avg" : 126.925,
+        "units" : "count\/min",
+        "date" : "2026-02-11 19:24:36 +1100"
+      },
+      {
+        "units" : "count\/min",
+        "date" : "2026-02-11 19:25:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "Min" : 122.99999999999999,
+        "Max" : 139.00000000000003,
+        "Avg" : 130.095
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "Avg" : 129.5,
+        "units" : "count\/min",
+        "date" : "2026-02-11 19:26:36 +1100",
+        "Min" : 129,
+        "Max" : 130
+      }
+    ],
+    "name" : "Pool Swim",
+    "swimStroke" : [
+      {
+        "date" : "2026-02-11 17:33:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 10.652237986632635,
+        "units" : "count"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "count",
+        "date" : "2026-02-11 17:34:36 +1100",
+        "qty" : 8.3477620133673653
+      },
+      {
+        "date" : "2026-02-11 17:35:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 6,
+        "units" : "count"
+      },
+      {
+        "qty" : 10.758364651486392,
+        "units" : "count",
+        "date" : "2026-02-11 17:36:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "count",
+        "qty" : 10.241635348513608,
+        "date" : "2026-02-11 17:37:36 +1100"
+      },
+      {
+        "qty" : 6.8257987314254169,
+        "date" : "2026-02-11 17:38:36 +1100",
+        "units" : "count",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 13.457911321427476,
+        "units" : "count",
+        "date" : "2026-02-11 17:39:36 +1100"
+      },
+      {
+        "units" : "count",
+        "qty" : 13.101262833692008,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:40:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 17:41:36 +1100",
+        "qty" : 7.0053326536600204,
+        "units" : "count",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "count",
+        "date" : "2026-02-11 17:42:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 13.589386661637437
+      },
+      {
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:43:36 +1100",
+        "qty" : 11.347343997295273
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:44:36 +1100",
+        "units" : "count",
+        "qty" : 14.176750915136761
+      },
+      {
+        "qty" : 12.040383722614949,
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:45:36 +1100"
+      },
+      {
+        "units" : "count",
+        "qty" : 14.388791297505072,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:46:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 17:47:36 +1100",
+        "qty" : 13.067037865605588,
+        "source" : "ting’s Apple Watch",
+        "units" : "count"
+      },
+      {
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:48:36 +1100",
+        "qty" : 16
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "count",
+        "qty" : 12.132684799825761,
+        "date" : "2026-02-11 17:49:36 +1100"
+      },
+      {
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "qty" : 3.9881124059665267,
+        "date" : "2026-02-11 17:50:36 +1100"
+      },
+      {
+        "qty" : 0.68908425069365398,
+        "source" : "ting’s Apple Watch",
+        "units" : "count",
+        "date" : "2026-02-11 17:51:36 +1100"
+      },
+      {
+        "qty" : 11.270261785767019,
+        "date" : "2026-02-11 17:52:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "count"
+      },
+      {
+        "qty" : 9.9198567577470396,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:53:36 +1100",
+        "units" : "count"
+      },
+      {
+        "date" : "2026-02-11 17:55:36 +1100",
+        "qty" : 6.9766979850151358,
+        "units" : "count",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:56:36 +1100",
+        "qty" : 10.023302014984864
+      },
+      {
+        "date" : "2026-02-11 18:00:36 +1100",
+        "units" : "count",
+        "qty" : 4,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:08:36 +1100",
+        "qty" : 2.1150774190852113
+      },
+      {
+        "qty" : 0.8849225809147887,
+        "source" : "ting’s Apple Watch",
+        "units" : "count",
+        "date" : "2026-02-11 18:09:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:10:36 +1100",
+        "units" : "count",
+        "qty" : 11.105178415081404
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:11:36 +1100",
+        "qty" : 0.89482158491859565,
+        "units" : "count"
+      },
+      {
+        "date" : "2026-02-11 18:12:36 +1100",
+        "qty" : 7.8439797573318799,
+        "units" : "count",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 9.414909693292298,
+        "source" : "ting’s Apple Watch",
+        "units" : "count",
+        "date" : "2026-02-11 18:13:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 4.7411105493758221,
+        "date" : "2026-02-11 18:14:36 +1100",
+        "units" : "count"
+      },
+      {
+        "date" : "2026-02-11 18:15:36 +1100",
+        "qty" : 6.6147031382819339,
+        "source" : "ting’s Apple Watch",
+        "units" : "count"
+      },
+      {
+        "date" : "2026-02-11 18:16:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 5.3852968617180661,
+        "units" : "count"
+      },
+      {
+        "date" : "2026-02-11 18:17:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "count",
+        "qty" : 12.864967357703344
+      },
+      {
+        "date" : "2026-02-11 18:18:36 +1100",
+        "qty" : 15.148161799558052,
+        "units" : "count",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "count",
+        "date" : "2026-02-11 18:19:36 +1100",
+        "qty" : 14.686977740707158,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 0.29989310203144548,
+        "date" : "2026-02-11 18:20:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "count"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 11.903285201703403,
+        "date" : "2026-02-11 18:21:36 +1100",
+        "units" : "count"
+      },
+      {
+        "qty" : 14.376830888550282,
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:22:36 +1100"
+      },
+      {
+        "units" : "count",
+        "qty" : 12.367180589632065,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:23:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 18:24:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 14.254467724518319,
+        "units" : "count"
+      },
+      {
+        "date" : "2026-02-11 18:25:36 +1100",
+        "qty" : 13.297853014835269,
+        "source" : "ting’s Apple Watch",
+        "units" : "count"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "count",
+        "date" : "2026-02-11 18:26:36 +1100",
+        "qty" : 12.824330040931471
+      },
+      {
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:27:36 +1100",
+        "qty" : 15.982616669451291
+      },
+      {
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "qty" : 13.624930191121603,
+        "date" : "2026-02-11 18:28:36 +1100"
+      },
+      {
+        "qty" : 14.304834941984433,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:29:36 +1100",
+        "units" : "count"
+      },
+      {
+        "qty" : 6.0636707372718632,
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:30:36 +1100"
+      },
+      {
+        "qty" : 11.931188273693387,
+        "units" : "count",
+        "date" : "2026-02-11 18:34:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 8.0688117263066133,
+        "date" : "2026-02-11 18:35:36 +1100",
+        "units" : "count"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:37:36 +1100",
+        "qty" : 7,
+        "units" : "count"
+      },
+      {
+        "qty" : 4.0029573202333602,
+        "date" : "2026-02-11 18:38:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "count"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:39:36 +1100",
+        "qty" : 7.9970426797666398,
+        "units" : "count"
+      },
+      {
+        "qty" : 7.3614522292330582,
+        "units" : "count",
+        "date" : "2026-02-11 18:40:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 18:41:36 +1100",
+        "qty" : 14.928124555556,
+        "source" : "ting’s Apple Watch",
+        "units" : "count"
+      },
+      {
+        "units" : "count",
+        "date" : "2026-02-11 18:42:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 13.409907219888034
+      },
+      {
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "qty" : 14.904803154371173,
+        "date" : "2026-02-11 18:43:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 18:44:36 +1100",
+        "qty" : 13.087205576624108,
+        "units" : "count",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "count",
+        "qty" : 15.843540342173368,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:45:36 +1100"
+      },
+      {
+        "units" : "count",
+        "qty" : 11.97038422597365,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:46:36 +1100"
+      },
+      {
+        "qty" : 17.279086309373618,
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:47:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 18:48:36 +1100",
+        "qty" : 11.215496386806993,
+        "units" : "count",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:49:36 +1100",
+        "qty" : 15,
+        "units" : "count"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 15.692955329673703,
+        "units" : "count",
+        "date" : "2026-02-11 18:50:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 15.307044670326297,
+        "date" : "2026-02-11 18:51:36 +1100",
+        "units" : "count"
+      },
+      {
+        "qty" : 5.164089825170878,
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:52:36 +1100"
+      },
+      {
+        "qty" : 13.798737365624671,
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:53:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 18:54:36 +1100",
+        "units" : "count",
+        "qty" : 10.037172809204449,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "count",
+        "date" : "2026-02-11 18:55:36 +1100",
+        "qty" : 16
+      },
+      {
+        "qty" : 9,
+        "units" : "count",
+        "date" : "2026-02-11 18:56:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 18:57:36 +1100",
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "qty" : 9.4077142277843091
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "count",
+        "qty" : 7.5922857722156909,
+        "date" : "2026-02-11 18:58:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 18:59:36 +1100",
+        "qty" : 3.6200491044735621,
+        "source" : "ting’s Apple Watch",
+        "units" : "count"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:00:36 +1100",
+        "units" : "count",
+        "qty" : 16.227808891248376
+      },
+      {
+        "qty" : 14.446688019755051,
+        "units" : "count",
+        "date" : "2026-02-11 19:01:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 19:02:36 +1100",
+        "qty" : 12.705453984523011,
+        "units" : "count",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 10.948842716444052,
+        "date" : "2026-02-11 19:03:36 +1100",
+        "units" : "count",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 10.508373969939974,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:04:36 +1100",
+        "units" : "count"
+      },
+      {
+        "qty" : 17.12583120149009,
+        "source" : "ting’s Apple Watch",
+        "units" : "count",
+        "date" : "2026-02-11 19:05:36 +1100"
+      },
+      {
+        "units" : "count",
+        "qty" : 13.728083037873498,
+        "date" : "2026-02-11 19:06:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 12.351239947336033,
+        "date" : "2026-02-11 19:07:36 +1100",
+        "units" : "count",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 19:08:36 +1100",
+        "qty" : 13.190468681000631,
+        "source" : "ting’s Apple Watch",
+        "units" : "count"
+      },
+      {
+        "date" : "2026-02-11 19:09:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 14.900337516113781,
+        "units" : "count"
+      },
+      {
+        "units" : "count",
+        "qty" : 15.053055730555458,
+        "date" : "2026-02-11 19:10:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 13.19376719924648,
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:11:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 19:12:36 +1100",
+        "qty" : 15,
+        "units" : "count",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "count",
+        "qty" : 14,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:13:36 +1100"
+      },
+      {
+        "qty" : 14,
+        "date" : "2026-02-11 19:14:36 +1100",
+        "units" : "count",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 19:16:36 +1100",
+        "units" : "count",
+        "qty" : 0.56682928677139977,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 19:17:36 +1100",
+        "units" : "count",
+        "qty" : 19.310329890033341,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "count",
+        "date" : "2026-02-11 19:18:36 +1100",
+        "qty" : 2.1228408231952578,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 1.5480685603703686,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:19:36 +1100",
+        "units" : "count"
+      },
+      {
+        "date" : "2026-02-11 19:20:36 +1100",
+        "qty" : 1.4519314396296314,
+        "source" : "ting’s Apple Watch",
+        "units" : "count"
+      },
+      {
+        "date" : "2026-02-11 19:21:36 +1100",
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "qty" : 14.624051328267106
+      },
+      {
+        "qty" : 2.3759486717328944,
+        "units" : "count",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:22:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 19:23:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "count",
+        "qty" : 11.524130412706748
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "count",
+        "date" : "2026-02-11 19:24:36 +1100",
+        "qty" : 8.2024553871142096
+      },
+      {
+        "units" : "count",
+        "qty" : 3.2734142001790421,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:25:36 +1100"
+      }
+    ],
+    "activeEnergyBurned" : {
+      "qty" : 1837.3041182572861,
+      "units" : "kJ"
+    },
+    "maxHeartRate" : {
+      "qty" : 164,
+      "units" : "count\/min"
+    },
+    "start" : "2026-02-11 17:33:36 +1100",
+    "swimCadence" : {
+      "units" : "count\/min",
+      "qty" : 8.9477604417533989
+    },
+    "duration" : 6792.761204957962,
+    "speed" : {
+      "units" : "m\/hr",
+      "qty" : 1.0732012770711135
+    },
+    "intensity" : {
+      "qty" : 5.9571285043827551,
+      "units" : "kcal\/hr·kg"
+    },
+    "activeEnergy" : [
+      {
+        "qty" : 15.599421345469546,
+        "date" : "2026-02-11 17:33:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 16.247395243845624,
+        "units" : "kJ",
+        "date" : "2026-02-11 17:34:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 17:35:36 +1100",
+        "qty" : 13.121947287921138,
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:36:36 +1100",
+        "units" : "kJ",
+        "qty" : 16.399942312277364
+      },
+      {
+        "qty" : 18.8730424764512,
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "date" : "2026-02-11 17:37:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 17:38:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 8.3532304995385616,
+        "units" : "kJ"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:39:36 +1100",
+        "units" : "kJ",
+        "qty" : 21.872056829546601
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:40:36 +1100",
+        "units" : "kJ",
+        "qty" : 21.729991451495575
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 11.253533515919749,
+        "units" : "kJ",
+        "date" : "2026-02-11 17:41:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:42:36 +1100",
+        "units" : "kJ",
+        "qty" : 22.935166348834954
+      },
+      {
+        "qty" : 19.361930389576298,
+        "date" : "2026-02-11 17:43:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:44:36 +1100",
+        "qty" : 23.006312944320179
+      },
+      {
+        "date" : "2026-02-11 17:45:36 +1100",
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch",
+        "qty" : 20.474919023195735
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 23.96270430354777,
+        "units" : "kJ",
+        "date" : "2026-02-11 17:46:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 25.117482591992587,
+        "date" : "2026-02-11 17:47:36 +1100",
+        "units" : "kJ"
+      },
+      {
+        "date" : "2026-02-11 17:48:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 24.277364463812425,
+        "units" : "kJ"
+      },
+      {
+        "qty" : 17.246039790806375,
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "date" : "2026-02-11 17:49:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 17:50:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "qty" : 14.348358023134752
+      },
+      {
+        "date" : "2026-02-11 17:51:36 +1100",
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch",
+        "qty" : 14.367814973549629
+      },
+      {
+        "date" : "2026-02-11 17:52:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 20.878044950481151,
+        "units" : "kJ"
+      },
+      {
+        "date" : "2026-02-11 17:53:36 +1100",
+        "qty" : 19.450193458622788,
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:54:36 +1100",
+        "units" : "kJ",
+        "qty" : 11.433312985961763
+      },
+      {
+        "qty" : 16.137311685229996,
+        "date" : "2026-02-11 17:55:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "qty" : 18.167481016633268,
+        "date" : "2026-02-11 17:56:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "qty" : 16.059162249431644,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:57:36 +1100",
+        "units" : "kJ"
+      },
+      {
+        "date" : "2026-02-11 17:58:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 9.4734657023958579,
+        "units" : "kJ"
+      },
+      {
+        "units" : "kJ",
+        "qty" : 2.8293394249953439,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 17:59:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 18:00:36 +1100",
+        "qty" : 14.561264864717756,
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "date" : "2026-02-11 18:01:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "qty" : 2.8293354917359448
+      },
+      {
+        "units" : "kJ",
+        "qty" : 2.8292895246431358,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:02:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 2.8292401130689657,
+        "date" : "2026-02-11 18:03:36 +1100",
+        "units" : "kJ"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 8.6298116497773307,
+        "date" : "2026-02-11 18:04:36 +1100",
+        "units" : "kJ"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 8.6602974111811761,
+        "units" : "kJ",
+        "date" : "2026-02-11 18:05:36 +1100"
+      },
+      {
+        "units" : "kJ",
+        "date" : "2026-02-11 18:06:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 2.8293088913356956
+      },
+      {
+        "qty" : 2.8293242084218457,
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "date" : "2026-02-11 18:07:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 18:08:36 +1100",
+        "qty" : 11.114399345545326,
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 10.322110340470882,
+        "date" : "2026-02-11 18:09:36 +1100",
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "kJ",
+        "qty" : 12.574744348908879,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:10:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 18:11:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 9.1462938485022942,
+        "units" : "kJ"
+      },
+      {
+        "date" : "2026-02-11 18:12:36 +1100",
+        "qty" : 9.2103286784309955,
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:13:36 +1100",
+        "qty" : 15.887548880882491
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 13.435438132390122,
+        "date" : "2026-02-11 18:14:36 +1100",
+        "units" : "kJ"
+      },
+      {
+        "date" : "2026-02-11 18:15:36 +1100",
+        "qty" : 8.0321237997688293,
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "kJ",
+        "date" : "2026-02-11 18:16:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 13.973436288500928
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:17:36 +1100",
+        "qty" : 16.006039035536055,
+        "units" : "kJ"
+      },
+      {
+        "date" : "2026-02-11 18:18:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 23.279609886221539,
+        "units" : "kJ"
+      },
+      {
+        "qty" : 23.262187933345579,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:19:36 +1100",
+        "units" : "kJ"
+      },
+      {
+        "qty" : 5.479462044504178,
+        "units" : "kJ",
+        "date" : "2026-02-11 18:20:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 16.24519182207397,
+        "date" : "2026-02-11 18:21:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "units" : "kJ",
+        "qty" : 23.110979949683085,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:22:36 +1100"
+      },
+      {
+        "qty" : 18.5001622602841,
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "date" : "2026-02-11 18:23:36 +1100"
+      },
+      {
+        "units" : "kJ",
+        "date" : "2026-02-11 18:24:36 +1100",
+        "qty" : 21.98396152891215,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "date" : "2026-02-11 18:25:36 +1100",
+        "qty" : 22.066371684603936
+      },
+      {
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:26:36 +1100",
+        "qty" : 19.717400542851838
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "qty" : 24.660621871686843,
+        "date" : "2026-02-11 18:27:36 +1100"
+      },
+      {
+        "qty" : 20.98686906749877,
+        "date" : "2026-02-11 18:28:36 +1100",
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 18:29:36 +1100",
+        "qty" : 23.188217446954059,
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:30:36 +1100",
+        "qty" : 14.724792734164916,
+        "units" : "kJ"
+      },
+      {
+        "date" : "2026-02-11 18:31:36 +1100",
+        "qty" : 2.8293477989348563,
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "date" : "2026-02-11 18:32:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "qty" : 2.8293538770801505
+      },
+      {
+        "qty" : 19.478307301092812,
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "date" : "2026-02-11 18:33:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "date" : "2026-02-11 18:34:36 +1100",
+        "qty" : 14.911800669856383
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "qty" : 16.331218607366086,
+        "date" : "2026-02-11 18:35:36 +1100"
+      },
+      {
+        "qty" : 5.2465071404984247,
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:36:36 +1100"
+      },
+      {
+        "qty" : 14.052028706802806,
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:37:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 3.7648267010820775,
+        "date" : "2026-02-11 18:38:36 +1100",
+        "units" : "kJ"
+      },
+      {
+        "qty" : 17.362131058744282,
+        "units" : "kJ",
+        "date" : "2026-02-11 18:39:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 18:40:36 +1100",
+        "qty" : 9.2972571576002263,
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "date" : "2026-02-11 18:41:36 +1100",
+        "qty" : 23.290428234678927,
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 20.755920673828523,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:42:36 +1100",
+        "units" : "kJ"
+      },
+      {
+        "qty" : 23.246957539083578,
+        "date" : "2026-02-11 18:43:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "qty" : 20.797200979042401,
+        "date" : "2026-02-11 18:44:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "date" : "2026-02-11 18:45:36 +1100",
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch",
+        "qty" : 25.631535778960462
+      },
+      {
+        "qty" : 18.542148933672085,
+        "date" : "2026-02-11 18:46:36 +1100",
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 18:47:36 +1100",
+        "qty" : 25.92382666393868,
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "qty" : 22.384977463656423,
+        "date" : "2026-02-11 18:48:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "qty" : 20.938847545124528,
+        "units" : "kJ",
+        "date" : "2026-02-11 18:49:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "qty" : 23.374751281312843,
+        "date" : "2026-02-11 18:50:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "date" : "2026-02-11 18:51:36 +1100",
+        "qty" : 24.929857689878027
+      },
+      {
+        "qty" : 6.7952337817572355,
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:52:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:53:36 +1100",
+        "qty" : 21.003207324241473,
+        "units" : "kJ"
+      },
+      {
+        "qty" : 21.207911325560755,
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:54:36 +1100"
+      },
+      {
+        "qty" : 23.032014271657889,
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:55:36 +1100"
+      },
+      {
+        "qty" : 15.119439351999532,
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "date" : "2026-02-11 18:56:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 18:57:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "qty" : 9.3858922930433728
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "qty" : 18.50262573466431,
+        "date" : "2026-02-11 18:58:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 18:59:36 +1100",
+        "qty" : 3.4010289538499885,
+        "units" : "kJ"
+      },
+      {
+        "units" : "kJ",
+        "qty" : 25.777387385206062,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:00:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 19:01:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "qty" : 22.222614300846296
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "qty" : 24.266354285251065,
+        "date" : "2026-02-11 19:02:36 +1100"
+      },
+      {
+        "qty" : 14.342291596423788,
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "date" : "2026-02-11 19:03:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 19:04:36 +1100",
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch",
+        "qty" : 16.261360702073844
+      },
+      {
+        "qty" : 24.734537862033516,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:05:36 +1100",
+        "units" : "kJ"
+      },
+      {
+        "units" : "kJ",
+        "qty" : 21.194057669775525,
+        "date" : "2026-02-11 19:06:36 +1100",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:07:36 +1100",
+        "qty" : 18.742706066508596,
+        "units" : "kJ"
+      },
+      {
+        "date" : "2026-02-11 19:08:36 +1100",
+        "qty" : 22.916377098133932,
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 24.36441007799073,
+        "date" : "2026-02-11 19:09:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "qty" : 23.180341055171748,
+        "date" : "2026-02-11 19:10:36 +1100",
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "date" : "2026-02-11 19:11:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "qty" : 22.916742258405158,
+        "units" : "kJ"
+      },
+      {
+        "units" : "kJ",
+        "qty" : 22.971136725704486,
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:12:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 19:13:36 +1100",
+        "qty" : 21.695022311179731,
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "date" : "2026-02-11 19:14:36 +1100",
+        "qty" : 20.787096288824159,
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch",
+        "qty" : 11.885975929777645,
+        "date" : "2026-02-11 19:15:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "qty" : 12.458492614195681,
+        "date" : "2026-02-11 19:16:36 +1100"
+      },
+      {
+        "date" : "2026-02-11 19:17:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ",
+        "qty" : 27.085926635446647
+      },
+      {
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch",
+        "qty" : 8.5218775644053242,
+        "date" : "2026-02-11 19:18:36 +1100"
+      },
+      {
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:19:36 +1100",
+        "units" : "kJ",
+        "qty" : 3.9030930097201355
+      },
+      {
+        "date" : "2026-02-11 19:20:36 +1100",
+        "qty" : 14.625626931889459,
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "qty" : 16.350241800941667,
+        "date" : "2026-02-11 19:21:36 +1100",
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "qty" : 15.445948257051624,
+        "date" : "2026-02-11 19:22:36 +1100",
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "date" : "2026-02-11 19:23:36 +1100",
+        "units" : "kJ",
+        "qty" : 14.765846832588759,
+        "source" : "ting’s Apple Watch"
+      },
+      {
+        "units" : "kJ",
+        "source" : "ting’s Apple Watch",
+        "date" : "2026-02-11 19:24:36 +1100",
+        "qty" : 12.622075093132354
+      },
+      {
+        "date" : "2026-02-11 19:25:36 +1100",
+        "qty" : 12.856770486764944,
+        "source" : "ting’s Apple Watch",
+        "units" : "kJ"
+      },
+      {
+        "date" : "2026-02-11 19:26:36 +1100",
+        "units" : "kJ",
+        "qty" : 0.9499354059563625,
+        "source" : "ting’s Apple Watch"
+      }
+    ]
+  }
