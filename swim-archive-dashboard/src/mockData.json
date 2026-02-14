@@ -1,0 +1,43 @@
+{
+  "data": {
+    "workouts": [
+      {
+        "date": "2026-02-14",
+        "workoutDuration": {
+          "qty": 45,
+          "units": "min"
+        },
+
+        "heartRate": {
+          "avg": {
+            "qty": 142,
+            "units": "bpm"
+          }
+        },
+        "activeEnergyBurned": {
+          "qty": 420,
+          "units": "kcal"
+        },
+        "strokeTypeAnalysis": [
+          {
+            "type": "Freestyle",
+            "percentage": 90
+          },
+          {
+            "type": "Breaststroke",
+            "percentage": 10
+          }
+        ],
+        "distance": {
+            "qty": 1500,
+            "units": "m"
+        },
+        "name": "Pool Swim",
+        "lapLength": {
+            "qty": 25,
+            "units": "m"
+        }
+      }
+    ]
+  }
+}

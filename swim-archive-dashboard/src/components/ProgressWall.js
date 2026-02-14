@@ -109,7 +109,7 @@ const ProgressWall = ({ sessions, setActiveSession }) => {
 <br/>
       <div className="sync-status">
       <div className="sync-indicator"></div>
-      <span>Last synced with Apple Watch: 1 min ago</span>
+      <span>Last synced with Apple Watch: within 1 day</span>
       </div>
     </div>
   );
