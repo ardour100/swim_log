@@ -99,7 +99,7 @@ const calculatePaceSplits = (swimDistanceArray) => {
  * @param {Object} props
  * @param {Array<Object>} props.swimDistanceData - The raw swim distance data array.
  */
-const SplitPaceChart = ({ swimDistanceData = MOCK_SWIM_DISTANCE_DATA }) => {
+const SplitPaceChart = ({ swimDistanceData = [] }) => {
   // Process the data using useMemo to optimize performance
   const processedData = useMemo(() => calculatePaceSplits(swimDistanceData), [swimDistanceData]);
 
